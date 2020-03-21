@@ -91,6 +91,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 #         工具-->Git-->Remote Repository-->Fetch
 #Commit   工具-->Git-->Local Repository-->Commit    填好Email->Description->selectall->commit
 #Push     工具-->Git-->Remote Repository-->Push
+#OK
 
 message("-----------------------------")
 message("从此深耕不回头")
