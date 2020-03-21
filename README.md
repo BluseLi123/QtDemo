@@ -18,12 +18,12 @@ QtDemo目前是在Windows下使用Qt5.13写的但支持linux环境（同样是5.
 主要目的是跟您们学习，绝不以此盈利，希望能博得您同意，如果真的侵犯了您的权益，请联系我删除或修改。
 
 ## 1_1_helloQt
-	.pro文件的详解  [参考1](https://blog.csdn.net/liang19890820/article/details/51774724) [参考2](https://www.cnblogs.com/wanghuixi/p/9572863.html)
-	Qt中使用Git进行版本控制 [参考](https://blog.csdn.net/qq_39557240/article/details/100188147)
-	如何编写规范的README.md [参考](https://www.cnblogs.com/wj-1314/p/8547763.html)
+.pro文件的详解  [参考1](https://blog.csdn.net/liang19890820/article/details/51774724) [参考2](https://www.cnblogs.com/wanghuixi/p/9572863.html)
+Qt中使用Git进行版本控制 [参考](https://blog.csdn.net/qq_39557240/article/details/100188147)
+如何编写规范的README.md [参考](https://www.cnblogs.com/wj-1314/p/8547763.html)
 ## 1_2_helloQt
-	Qt5.13配置环境变量
-	Qt中tr的使用以及编码问题 [参考](https://blog.csdn.net/tju355/article/details/7253133)
-	tr如何实现翻译 [参考](https://blog.csdn.net/menger3388/article/details/86011411)
+Qt5.13配置环境变量
+Qt中tr的使用以及编码问题 [参考](https://blog.csdn.net/tju355/article/details/7253133)
+tr如何实现翻译 [参考](https://blog.csdn.net/menger3388/article/details/86011411)
 	
-## 最后[learn more](www.bluseli.cn)
+## 最后[learn more](https://www.bluseli.cn)
