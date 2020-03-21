@@ -93,6 +93,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 #Push     工具-->Git-->Remote Repository-->Push
 #OK
 
+#如何编写规范的README.md 参考https://www.cnblogs.com/wj-1314/p/8547763.html
+
 message("-----------------------------")
 message("从此深耕不回头")
 message("www.bluseli.cn")
