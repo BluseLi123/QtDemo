@@ -3,6 +3,7 @@ CONFIG  += ordered
 
 SUBDIRS += \
     1_1_helloQt \
-    1_2_helloQt
+    1_2_helloQt \
+    1_3_validateLogon
 
 

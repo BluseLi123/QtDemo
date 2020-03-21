@@ -24,7 +24,7 @@ SOURCES += \
 #然后将添加的几项上移动顶部（之前报过错）
 #然后编译之后可以直接运行.exe可执行文件。
 
-########代码创建窗口 不使用UI
+########代码创建窗口 不使用UI  对话框和主窗口 信号和槽
 
 ########加载程序ICON 为可执行程序写入版本信息 参考https://www.cnblogs.com/Braveliu/p/4506844.html
 #新建.rc文件 然后添加代码如下
@@ -107,5 +107,3 @@ message("www.bluseli.cn")
 message("贪贪贪丶慎独")
 message("2 .helloQt_2")
 message("-----------------------------")
-
-HEADERS +=

@@ -11,7 +11,7 @@
 ###这里做一下说明
 QtDemo目前是在Windows下使用Qt5.13写的但支持linux环境（同样是5.13）。
 我会把相关的理论或者操作 整理形成的文字放到.pro中 以方便查阅，
-后续会有博客（www.bluseli.cn和CSDN）和WORD文档出来。
+后续会有[博客](www.bluseli.cn)、[CSDN](https://blog.csdn.net/BluseLIBB)更新 也会整理WORD文档出来。
 
 推荐Qt相关网站 [Qt开源社区](https://www.qter.org) [QTCN开发网](http://www.qtcn.org)
 推荐博主	   [飞扬青云](https://www.cnblogs.com/feiyangqingyun/archive/2018/05/06.html) [一去丶二三里](https://blog.csdn.net/liang19890820/article/details/50277095)
@@ -21,7 +21,7 @@ QtDemo目前是在Windows下使用Qt5.13写的但支持linux环境（同样是5.
 主要目的是跟您们学习，绝不以此盈利，希望能博得您同意，如果真的侵犯了您的权益，请联系我删除或修改。
 
 ## 1_1_helloQt
-1.pro文件的详解  [参考1](https://blog.csdn.net/liang19890820/article/details/51774724) [参考2](https://www.cnblogs.com/wanghuixi/p/9572863.html)
+1.pro文件的详解  [参考](https://blog.csdn.net/liang19890820/article/details/51774724) [参考](https://www.cnblogs.com/wanghuixi/p/9572863.html)
 2.Qt中使用Git进行版本控制 [参考](https://blog.csdn.net/qq_39557240/article/details/100188147)
 3.如何编写规范的README.md [参考](https://www.cnblogs.com/wj-1314/p/8547763.html)
 4.Qt程序发布 [参考](https://www.cnblogs.com/xiangtingshen/p/10988325.html)
