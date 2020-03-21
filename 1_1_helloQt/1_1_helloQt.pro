@@ -4,11 +4,8 @@
 #
 #-------------------------------------------------
 
-# 注释 快捷键：Ctrl + /
-# pro 配置详解 参考https://blog.csdn.net/liang19890820/article/details/51774724
-#                https://www.cnblogs.com/wanghuixi/p/9572863.html
-
-# 使用core gui模块
+########################################################################################################
+#使用core gui模块
 QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -80,10 +77,14 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 #以通过在其它任何一个变量的变量名前加$$来把这个变量的值分配给当前的变量。
 #例如：MY_DEFINES= $$DEFINE
 #将DEFINE的值分配给MY_DEFINES
+########################################################################################################
+########pro 配置详解 参考https://blog.csdn.net/liang19890820/article/details/51774724
+#                      https://www.cnblogs.com/wanghuixi/p/9572863.html
+#注释 快捷键：Ctrl + /
 
-#Hello Qt
+########Hello Qt
 
-#Qt中使用Git进行版本控制 参考https://blog.csdn.net/qq_39557240/article/details/100188147
+########Qt中使用Git进行版本控制 参考https://blog.csdn.net/qq_39557240/article/details/100188147
 #Git创建创库    可参考https://jingyan.baidu.com/article/295430f18d33490c7e0050e4.html
 #配置git  工具-->选项-->版本控制-->配置填上git位置(E:\Program Files\Git)
 #创建仓库  工具-->Git-->创建仓库 工程下会生成.git
@@ -93,7 +94,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 #Push     工具-->Git-->Remote Repository-->Push
 #OK
 
-#如何编写规范的README.md 参考https://www.cnblogs.com/wj-1314/p/8547763.html
+########如何编写规范的README.md 参考https://www.cnblogs.com/wj-1314/p/8547763.html
 #Markdown的语法
 # #                                     文字标题
 # -                                     列表
@@ -104,6 +105,13 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 # | Item | Value | Date |
 # | Item | Value | Date |               表格
 
+########Qt程序发布 参考https://www.cnblogs.com/xiangtingshen/p/10988325.html
+#程序以release版本编译
+#打开cmd 并通过cd命令并切换到.exe所在目录
+#输入打包命令 windeployqt yourappname.exe
+#如果还有dll缺失，请手动复制  dll在你使用的编译器的bin目录
+
+########################################################################################################
 message("-----------------------------")
 message("从此深耕不回头")
 message("www.bluseli.cn")
