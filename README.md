@@ -11,7 +11,7 @@
 ###这里做一下说明
 QtDemo目前是在Windows下使用Qt5.13写的但支持linux环境（同样是5.13）。
 我会把相关的理论或者操作 整理形成的文字放到.pro中 以方便查阅，
-后续会有[博客](www.bluseli.cn)、[CSDN](https://blog.csdn.net/BluseLIBB)更新 也会整理WORD文档出来。
+后续会有[博客](https://www.bluseli.cn)、[CSDN](https://blog.csdn.net/BluseLIBB)更新 也会整理WORD文档出来。
 
 推荐Qt相关网站 [Qt开源社区](https://www.qter.org) [QTCN开发网](http://www.qtcn.org)
 推荐博主	   [飞扬青云](https://www.cnblogs.com/feiyangqingyun/archive/2018/05/06.html) [一去丶二三里](https://blog.csdn.net/liang19890820/article/details/50277095)
