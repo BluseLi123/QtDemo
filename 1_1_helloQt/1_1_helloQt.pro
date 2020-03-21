@@ -86,6 +86,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 #Qt中使用Git进行版本控制 参考https://blog.csdn.net/qq_39557240/article/details/100188147
 #配置git 工具-->选项-->版本控制-->配置填上git位置(E:\Program Files\Git)
 #创建仓库 工具-->Git-->创建仓库 工程下会生成.git
+#Commit  工具-->Git-->Local Repository-->Commit    填好Email->Description->selectall->commit
+#Push    工具-->Git-->Remote Repository-->Push
 
 message("-----------------------------")
 message("从此深耕不回头")
