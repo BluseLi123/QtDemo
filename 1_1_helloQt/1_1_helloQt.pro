@@ -94,10 +94,19 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 #OK
 
 #如何编写规范的README.md 参考https://www.cnblogs.com/wj-1314/p/8547763.html
+#Markdown的语法
+# #                                     文字标题
+# -                                     列表
+# >                                     引用
+# *斜体*  **粗体**                       斜体和加粗
+# [文本](链接)                           链接
+# ***                                   分割类容
+# | Item | Value | Date |
+# | Item | Value | Date |               表格
 
 message("-----------------------------")
 message("从此深耕不回头")
 message("www.bluseli.cn")
 message("贪贪贪丶慎独")
-message("1 .pro文件详解")
+message("1 .helloQt_1")
 message("-----------------------------")
