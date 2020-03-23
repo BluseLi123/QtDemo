@@ -30,7 +30,11 @@ QtDemo目前是在Windows下使用Qt5.13写的但支持linux环境（同样是5.
 2.加载程序ICON 为可执行程序写入版本信息 [参考](https://www.cnblogs.com/Braveliu/p/4506844.html)
 3.Qt中tr的使用以及编码问题 [参考](https://blog.csdn.net/tju355/article/details/7253133)
 4.tr如何实现翻译 [参考](https://blog.csdn.net/menger3388/article/details/86011411)
-## 1_3_validateLogon
+## 1_3_360_ui
+界面效果很粗糙，其实我很用心了，哈哈
+![360Ui](https://github.com/BluseLi123/QtDemo/blob/master/screenshot/360ui.png)
+## 1_4_kugouLogon
+这个效果可能好点
 ![模仿酷狗登录窗口1](https://github.com/BluseLi123/QtDemo/blob/master/screenshot/logon1.png)
 ![模仿酷狗登录窗口2](https://github.com/BluseLi123/QtDemo/blob/master/screenshot/logon2.png)
 ## 最后[learn more about me](https://www.bluseli.cn)
