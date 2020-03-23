@@ -92,6 +92,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 #         工具-->Git-->Remote Repository-->Fetch
 #Commit   工具-->Git-->Local Repository-->Commit    填好Email->Description->selectall->commit
 #Push     工具-->Git-->Remote Repository-->Push
+
+#常用命令
+#git add -A
 #OK
 
 ########如何编写规范的README.md 参考https://www.cnblogs.com/wj-1314/p/8547763.html
