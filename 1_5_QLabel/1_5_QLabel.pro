@@ -26,11 +26,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        colorlabel.cpp \
+        gradientcolor.cpp \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+        textticker.cpp
 
 HEADERS += \
-        mainwindow.h
+        colorlabel.h \
+        gradientcolor.h \
+        mainwindow.h \
+        textticker.h
 
 FORMS += \
         mainwindow.ui
@@ -50,3 +56,5 @@ message("www.bluseli.cn")
 message("贪贪贪丶慎独")
 message("5 .QLabel")
 message("-----------------------------")
+
+DISTFILES +=

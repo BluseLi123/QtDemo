@@ -1,7 +1,6 @@
-########################################################################################################
+#[TOC]Hello Qt
 
-#Hello Qt
-[TOC]
+
 ##pro 配置详解
 参考	https://blog.csdn.net/liang19890820/article/details/51774724
 		https://www.cnblogs.com/wanghuixi/p/9572863.html
@@ -48,19 +47,19 @@ git commit -m xxx
 git add -A
 OK
 
-##如何编写规范的README.md 参考https://www.cnblogs.com/wj-1314/p/8547763.html https://www.jianshu.com/p/4d1b104c7ab4
+##如何编写规范的README.md 参考https://www.jianshu.com/p/4d1b104c7ab4 https://www.cnblogs.com/wj-1314/p/8547763.html 
 Markdown的语法
 *斜体*
 **粗体**
 ***加粗斜体***
 ~~删除线~~
 
-# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题
-###### 六级标题
+/# 一级标题
+/## 二级标题
+/### 三级标题
+/#### 四级标题
+/##### 五级标题
+/###### 六级标题
 欢迎访问[贪贪贪丶慎独](http://www.bluseli.cn)
 欢迎访问[贪贪贪丶慎独](http://www.bluseli.site "贪贪贪丶慎独")
 Markdown(这里使用到的语法)[参考][1]简书作者[安卓_背包客][],非商业转载只需要注明出处哈~~
@@ -192,12 +191,11 @@ printf("Hello world\n");
 </tr>
 </table>
 
----------------------------------------
+MarkDown写目录
+
 
 ##Qt程序发布 参考https://www.cnblogs.com/xiangtingshen/p/10988325.html
 	程序以release版本编译
 	打开cmd 并通过cd命令并切换到.exe所在目录
 	输入打包命令 windeployqt yourappname.exe
 	如果还有dll缺失，请手动复制  dll在你使用的编译器的bin目录
-
-########################################################################################################
