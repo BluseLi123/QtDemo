@@ -8,7 +8,7 @@
 QT       += core gui
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = 1_3_360_ui
+TARGET = 1_3_360Ui
 TEMPLATE = app
 DESTDIR  = $$PWD/../bin
 DEFINES += QT_DEPRECATED_WARNINGS

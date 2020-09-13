@@ -130,13 +130,36 @@ void GradientColor::paintEvent(QPaintEvent *event)
     //缩放
     pix = pix.scaled(pix.width()*0.2, pix.height()*0.2,Qt::KeepAspectRatio);
 
-    painter.translate(0, 0);
+    //painter.translate(0, 0);
 
     //倾斜
     painter.shear(0.5, 0);
     painter.drawPixmap(185, 15, pix);
 
+    painter.shear(-0.5, 0);
+    painter.translate(-605, -105);
+    painter.setBrush(Qt::red);
+    painter.drawRect(55, 250, 90, 90);
+    painter.setBrush(Qt::yellow);
+    painter.drawRect(5, 200, 90, 90);
 
+    //painter.drawPixmap(185, 315, pix);
+    // 平移变换
+    painter.setBrush(Qt::yellow);
+    painter.drawRect(155, 200, 50, 50);
+    //将点（100，100）设为原点
+    painter.translate(100, 100);
+    painter.setBrush(Qt::red);
+    painter.drawRect(155, 200, 50, 50);
+    painter.translate(-100, -100);
+    painter.drawLine(155, 200, 175, 220);
+
+    //缩放
+    painter.setBrush(Qt::yellow);
+    painter.drawRect(305, 200, 100, 100);
+    painter.scale(2, 2); //放大两倍
+    painter.setBrush(Qt::red);
+    painter.drawRect(505, 200, 50, 50);
 }
 
 GradientColor::~GradientColor()

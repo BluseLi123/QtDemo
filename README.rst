@@ -38,7 +38,7 @@ QtDemo目前是在Windows下使用Qt5.13写的但支持linux环境（同样是5.
 
 ![模仿酷狗登录窗口1](https://github.com/BluseLi123/QtDemo/blob/master/screenshot/logon1.png)
 ![模仿酷狗登录窗口2](https://github.com/BluseLi123/QtDemo/blob/master/screenshot/logon2.png)
-## 1_4_QLabel
+## 1_5_QLabel
 QLabel的一些基本使用和别人一些比较秀的效果
 
 ## 最后[learn more about me](https://www.bluseli.cn)

@@ -19,3 +19,13 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_pushButton_change_clicked()
+{
+    static int index=0;
+    if(index++>=ui->stackedWidget_main->count())
+        index=0;
+
+    ui->stackedWidget_main->setCurrentIndex(index);
+
+}

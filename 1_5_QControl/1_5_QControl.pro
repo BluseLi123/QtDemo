@@ -9,7 +9,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = 1_5_QLabel
+TARGET = 1_5_QControl
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -54,7 +54,7 @@ message("-----------------------------")
 message("从此深耕不回头")
 message("www.bluseli.cn")
 message("贪贪贪丶慎独")
-message("5 .QLabel")
+message("5 .Qt控件的简单使用")
 message("-----------------------------")
 
 DISTFILES +=

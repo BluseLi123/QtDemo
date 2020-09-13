@@ -15,7 +15,7 @@ ColorLabel::~ColorLabel()
 }
 void ColorLabel::paintEvent(QPaintEvent *event)
 {
-//    //__super::paintEvent(event);
+//    __super::paintEvent(event);
 //    QPainter painter(this);
 //    painter.setPen();
 //    QPen pen;
