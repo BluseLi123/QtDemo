@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>937</width>
-    <height>650</height>
+    <width>722</width>
+    <height>767</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -595,8 +595,8 @@ background-origin:content-box;</string>
             <widget class="QLabel" name="label_53">
              <property name="maximumSize">
               <size>
-               <width>350</width>
-               <height>500</height>
+               <width>16777215</width>
+               <height>16777215</height>
               </size>
              </property>
              <property name="text">
@@ -631,7 +631,7 @@ background-origin:content-box;</string>
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="page"/>
+      <widget class="QWidget" name="page_"/>
       <widget class="QWidget" name="page_QPainter">
        <layout class="QGridLayout" name="gridLayout_5">
         <item row="0" column="0">
@@ -685,7 +685,7 @@ background-origin:content-box;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>937</width>
+     <width>722</width>
      <height>23</height>
     </rect>
    </property>
