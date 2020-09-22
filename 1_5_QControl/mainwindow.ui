@@ -30,7 +30,7 @@
        </font>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="page_QLabel_text">
        <layout class="QGridLayout" name="gridLayout_6">
