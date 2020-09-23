@@ -207,6 +207,396 @@ Markdown的语法
 rst语法
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 现在已经更改为rst格式的文档了，我觉得这个更方便些。
+有参考野火的REST语法 https://ebf-contribute-guide.readthedocs.io/zh_CN/latest/rest-syntax/base-syntax.html
+也有参考博客：https://www.jianshu.com/p/1885d5570b37
+
+.. code-block:: 
+
+	野火sphinx文档规范
+
+	图片
+	.. image:: media/logo.png
+	:align: center
+
+	代码引用
+	.. literalinclude:: ../../base_code/hello.c
+	:caption: ../../base_code/hello.c
+	:language: c
+	:linenos:
+
+	类似docx的题注引用
+	.. literalinclude:: ../../base_code/hello.c
+	:caption: ../../base_code/hello.c
+	:language: c
+	:name: 代码清单或自己起的引用名字
+	:linenos:
+
+	引用的方式是使用 ":name:"定义的名字加下划线 "_",如：
+
+	代码清单或自己起的引用名字_
+
+	.. image:: ../media/rest-syntax/pic-video/logo.png
+	:align: center
+	:name: 野火logo
+
+	引用的方式是使用 ":name:"定义的名字加下划线 "_",如：
+
+	野火logo_
+
+	.. list-table:: Frozen Delights!
+		:widths: 15 10 30
+		:header-rows: 1
+		:name: 测试表格
+
+		* - Treat
+		- Quantity
+		- Description
+		* - Albatross
+		- 2.99
+		- On a stick!
+		* - Crunchy Frog
+		- 1.49
+		- If we took the bones out, it wouldn't be
+			crunchy, now would it?
+		* - Gannet Ripple
+		- 1.99
+		- On a stick!
+
+	引用的方式是使用 ":name:"定义的名字加下划线 "_",如：
+
+	测试表格_
+
+
+	首行          .. vim: syntax=rst
+
+	ReST基础语法
+
+	一级标题    
+	==============================
+
+	二级标题 安装工具
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	三级标题 实现方式二 i_cdev变量
+	------------------------------
+
+	四级标题
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+	五级标题
+	""""""""""""""""""""""""""""""
+
+	六级标题
+	******************************
+
+	**强调**
+
+	*斜体*
+
+	``monospace,会变色，具体作用不清楚``
+
+
+	无序列表
+	---------------------------
+	- hhhhhhhh
+	- hhhhhhhh
+	- hhhhhhhh
+	- hhhhhhhh
+	- hhhhhhhh
+	- hhhhhhhh
+
+
+	有序列表
+	------------------------
+	支持数字、大小写字母和罗马数字
+
+	1. hhhhhhhh
+	#. hhhhhhhh
+	#. hhhhhhhh
+	#. hhhhhhhh
+	#. hhhhhhhh
+	#. hhhhhhhh
+
+	a. hhhhhhhh
+	#. hhhhhhhh
+	#. hhhhhhhh
+	#. hhhhhhhh
+	#. hhhhhhhh
+	#. hhhhhhhh
+
+
+	表格
+	------------------------
+	.. list-table:: Frozen Delights!
+		:widths: 15 10 30
+		:header-rows: 1
+
+		* - Treat
+		- Quantity
+		- Description
+		* - Albatross
+		- 2.99
+		- On a stick!
+		* - Crunchy Frog
+		- 1.49
+		- If we took the bones out, it wouldn't be
+			crunchy, now would it?
+		* - Gannet Ripple
+		- 1.99
+		- On a stick!
+
+	=====  =====  =======
+	A      B      A and B
+	=====  =====  =======
+	False  False  False
+	True   False  False
+	False  True   False
+	True   True   True
+	=====  =====  =======
+
+	.. csv-table:: Frozen Delights!
+		:header: "Treat", "Quantity", "Description"
+		:widths: 15, 10, 30
+
+		"Albatross", 2.99, "On a stick!"
+		"Crunchy Frog", 1.49, "If we took the bones out, it wouldn't be
+		crunchy, now would it?"
+		"Gannet Ripple", 1.99, "On a stick!"
+
+	标志位
+
+	超链接
+	------------------------
+	直接嵌入网址：
+	`野火公司官网 <http://www.embedfire.com>`_
+
+	使用引用的方式把具体网址定义在其它地方： `野火公司官网`_
+
+	.. _野火公司官网: http://www.embedfire.com
+
+
+	图片引用
+	------------------------
+	.. _my-reference-label支持中文:
+
+	.. figure: ../media/rest-syntax/pic-video/logo.png
+	:alt: 野火logo
+	:align: center
+
+	引用方式 :ref:`my-reference-label支持中文` 。
+
+
+	表格引用
+	------------------------
+	.. _拨码开关启动配置表:
+
+	.. table:: 拨码开关启动配置表
+
+	==== ====== ========== ==== == ===
+	编号 名称   NAND FLASH eMMC SD USB
+	==== ====== ========== ==== == ===
+	1    MODE0  0          0    0  1
+	2    MODE1  1          1    1  0
+	3    CFG1-4 1          0    0  X
+	4    CFG1-5 0          1    0  X
+	5    CFG1-6 0          1    1  X
+	6    CFG1-7 1          0    0  X
+	7    CFG2-3 0          1    0  X
+	8    CFG2-5 0          0    1  X
+	==== ====== ========== ==== == ===
+
+	引用示例 :ref:`拨码开关启动配置表` 。
+	自定义名称引用 :ref:`自定义名称 <拨码开关启动配置表>` 。
+
+
+	引用文档
+	------------------------
+	自定义引用文字
+
+	:doc:`引用本地的其它rst文档,rst后缀要省略，如about_us <../about_us>`
+
+	使用标题文字
+	:doc:`../about_us`
+
+
+	使用标签引用文档
+	------------------------
+	:ref:`自定义链接文字 <about_embedfire>`
+
+	:ref:`about_embedfire`
+
+
+	跨文档引用标题
+	------------------------
+	文档A
+	=============
+	Some Document
+	=============
+
+
+	Internal Headline
+	=================
+
+	文档B
+	===============
+	Some Other Doc
+	===============
+
+
+	A link-  :ref:`Internal Headline`
+
+
+	引用非rst文档
+	------------------------
+	:download:`引用非rst的本地文档 <../requirements.txt>`.
+
+
+	快速定义代码块
+	------------------------
+	.. highlight:: sh
+
+	此指令后如下的“::”定义的块都会以sh语法进行高亮，直到遇到下一条highlight指令。
+
+	::
+
+	#此命令在主机执行
+	sudo apt install python
+	echo "helloworld,this is a script test!"
+	
+	
+	code-block代码高亮
+	------------------------
+	shell 高亮测试
+	.. code-block:: sh
+	:caption: test
+	:name: test333
+	:emphasize-lines: 2
+	:linenos:
+
+	#此命令在主机执行
+	sudo apt install python
+	echo "helloworld,this is a script test!"
+
+	C高亮测试 
+	.. code-block:: c
+	:caption: c test
+	:emphasize-lines: 4,5
+	:linenos:
+
+	#include <stdio.h>
+
+	int main()
+	{
+		printf("hello, world! This is a C program.\n");
+		for(int i=0;i<10;i++ ){
+		printf("output i=%d\n",i);
+		}
+
+		return 0;
+	}
+	
+	verilog高亮测试
+	.. code-block:: v
+	:caption: verilog test
+	:emphasize-lines: 4,5
+	:linenos:
+
+	module  key_filter
+	#(
+		parameter CNT_MAX = 20'd999_999 //计数器计数最大值
+	)
+	(
+		input   wire    sys_clk     ,   //系统时钟50Mhz
+		input   wire    sys_rst_n   ,   //全局复位
+		input   wire    key_in      ,   //按键输入信号
+
+		output  reg     key_flag        //key_flag为1时表示消抖后检测到按键被按下
+										//key_flag为0时表示没有检测到按键被按下
+	);
+	
+	
+	literalinclude直接嵌入本地文件并高亮（嵌入整个文件）
+	------------------------
+	插入C代码
+	.. literalinclude:: ../../base_code/hello.c
+	:caption: ../../base_code/hello.c
+	:language: c
+	:emphasize-lines: 5,7-12
+	:linenos:
+	:name: hello.c
+	
+	插入shell代码
+	.. literalinclude:: ../../base_code/hello_world.sh
+	:caption: ../../base_code/hello_world.sh
+	:language: sh
+	:linenos:
+	
+	插入Makefile代码
+	.. literalinclude:: ../../base_code/Makefile
+	:caption: ../../base_code/Makefile
+	:language: makefile
+	:linenos:
+	
+	
+	literalinclude直接嵌入本地文件并高亮（嵌入文件的某部分）
+	------------------------
+	.. literalinclude:: ../../base_code/hello.c
+	:caption: ../../base_code/hello.c
+	:language: c
+	:linenos:
+	:lines: 1,3,5-8
+	
+	文件对比
+	.. literalinclude:: ../../base_code/hello.c
+	:diff: ../../base_code/hello_diff.c
+
+
+	插入图片
+	------------------------
+	figure命令
+	.. figure: ../media/rest-syntax/pic-video/logo.png
+	:alt: 野火logo
+	:align: center
+	:caption: 野火logo
+	
+	image命令
+	.. image:: ../media/rest-syntax/pic-video/logo.png
+	:align: center
+	:alt: 野火logo
+	
+	|logo|,使用"|宏名|"的形式替换文字。
+	.. |logo| image:: ../media/rest-syntax/pic-video/logo.png
+
+	.. image:: ../media/rest-syntax/pic-video/logo.png
+	:align: center
+	:width: 5.63529in
+	:height: 0.97222in
+	
+
+	插入图片
+	------------------------
+	.. note:: This is a note admonition.
+	This is the second line of the first paragraph.
+
+	- The note contains all indented body elements
+	following.
+	- It includes this bullet list.
+
+	.. hint:: This is a hint admonition.
+
+	.. important:: This is a important admonition.
+
+	.. tip:: This is a tip admonition.
+
+	.. warning:: This is a warning admonition.
+
+	.. caution:: This is a caution admonition.
+
+	.. attention:: This is a attention admonition.
+
+	.. error:: This is a error admonition.
+
+	.. danger:: This is a danger admonition.
 
 
 Qt程序发布  

@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/fangxinweiai.ttf</file>
+        <file>Resources/balabala.ttf</file>
+        <file>Resources/bengcidaci.ttf</file>
+        <file>Resources/fontawesome-webfont.ttf</file>
+        <file>Resources/huaweiniubi.ttf</file>
+        <file>Resources/lizongsheng.ttf</file>
+        <file>Resources/niubihonghong.ttf</file>
+        <file>Resources/tantantanshendu.ttf</file>
+        <file>Resources/xiaoxianmao.ttf</file>
+        <file>Resources/Font-OPPOSans/OPPOSans-B.ttf</file>
+        <file>Resources/Font-OPPOSans/OPPOSans-H.ttf</file>
+        <file>Resources/Font-OPPOSans/OPPOSans-L.ttf</file>
+        <file>Resources/Font-OPPOSans/OPPOSans-M.ttf</file>
+        <file>Resources/Font-OPPOSans/OPPOSans-R.ttf</file>
+        <file>Resources/interestxiawucha.ttf</file>
+    </qresource>
+</RCC>
